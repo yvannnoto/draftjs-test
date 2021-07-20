@@ -1,0 +1,34 @@
+{
+  "name": "react-text-input-with-mentions",
+  "version": "1.0.0",
+  "description": "TextInput React component that has slack-like mentions support. Using React, Draft.js and Draft.js mentions plugin.",
+  "keywords": [
+    "react",
+    "mention",
+    "draftjs"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "draft-js": "0.11.5",
+    "draft-js-mention-plugin": "3.1.5",
+    "draft-js-plugins-editor": "3.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
